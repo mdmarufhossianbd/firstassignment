@@ -180,3 +180,51 @@ body{
     padding-left: 18px;
     padding-top: 18px;
 }
+
+/* Holiday Section Style */
+
+.holiday_title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday_title2{
+    text-align: center;
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday_title2_1st_part{
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday_details{
+    margin: auto;
+    width: 1068px;
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday_design{
+    margin: 120px 140px 120px;
+}
+.holiday_design{    
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+}
+.holiday_design_pic2{
+    position: relative;
+    right: -393px;
+    top: -278px;
+}
+.holiday_design_pic3{
+    position: absolute;
+    right: 400px;
+}
