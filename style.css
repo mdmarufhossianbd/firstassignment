@@ -30,25 +30,67 @@ body{
 
 /* offer area style */
 .offer_section{
-    text-align: center;    
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 120px;
 }
 .discout{
     color: #F00;
-    font-family: Inter;
     font-size: 88px;
     font-weight: 700;
 }
 .discout2{
     margin-top: 50px;
     color: #F00;
-    font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
 .categories{
     margin-bottom: 50px;
     color: #070211;
-    font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+}
+
+/* welcome section style */
+
+.welcome_section{
+    margin: 0px 140px;
+    padding: 126px 0px 24px 126px;
+    background: url(images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+}
+.welcome_title{
+    width: 642px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome_details{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+}
+.join_btn{
+    margin-top: 50px;
+    margin-left: 32px;
+    padding: 16px 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    border-style: none;
+}
+.year_img{
+    padding-left: 150px;
 }
