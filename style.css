@@ -228,3 +228,89 @@ body{
     position: absolute;
     right: 400px;
 }
+
+/* protfolio section start */
+.protfolio_section{
+    margin: 0px 140px 120px;
+}
+.protfolio_gift{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.protfolio_title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.protfolio_details{
+    margin-bottom: 50px;
+    width: 896px;
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;   
+}
+.portfolio_image{
+    display: flex;
+}
+.portfolio_img{
+    margin-bottom: 50px;
+    width: 33%;
+}
+
+/* Subscribe Section */
+.subscribe{
+    margin: 0px 140px 120px;
+    border-radius: 16px;
+    background: #ff00000d;
+}
+.subscribe_child{
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+.subscribe_title{
+    padding-top: 40px;
+    padding-bottom: 22px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.subscribe_details{
+    margin: auto;
+    width: 896px;
+    padding-bottom: 50px;
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+}
+form > input{
+    width: 340px;
+}
+form > input, button{
+    border-style: none;
+    padding: 25px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+}
+
+::placeholder{
+    color: #0702114d;
+    padding: 25px 0px 25px 30px;
+    font-family: Inter;
+    font-size: 18px;
+
+}
+.subscribe_btn{
+    width: 210px;
+    height: 72px;    
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
