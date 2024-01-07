@@ -1,6 +1,28 @@
 *{
     margin: 0;
 }
-.banar_area{
-    background: url(images/New\ Year\ Photo.png);
+body{
+    font-family: 'Merriweather', serif;
+}
+.banner{
+    margin: 50px 140px 120px;
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;      
+}
+.happy_new_year{
+    padding-top: 117px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+}
+.party_celebration{
+    padding-bottom: 180px;
+    color: #ffffff;    
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
 }
