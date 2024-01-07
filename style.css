@@ -114,3 +114,10 @@ body{
 .join_title_color{
     color: #F00;
 }
+
+/* section 5 styles */
+
+.section5{
+    margin: 120px 140px 120px;
+    display: flex;
+}
