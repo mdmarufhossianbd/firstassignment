@@ -229,8 +229,8 @@ body{
     right: 400px;
 }
 
-/* protfolio section start */
-.protfolio_section{
+/* portfolio section start */
+.portfolio_section{
     margin: 0px 140px 120px;
 }
 .protfolio_gift{
@@ -255,12 +255,15 @@ body{
 }
 .portfolio_image{
     display: flex;
+    justify-content: space-between;
 }
 .portfolio_img{
     margin-bottom: 50px;
-    width: 33%;
 }
-
+.portfolio_img :hover{
+    border-radius: 10px;
+    border: #00b894 solid 5px;
+}
 /* Subscribe Section */
 .subscribe{
     margin: 0px 140px 120px;
