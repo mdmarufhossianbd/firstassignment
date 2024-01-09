@@ -276,6 +276,7 @@ body{
 /* Subscribe Section */
 .subscribe{
     margin: 0px 140px 120px;
+    padding-bottom: 80px;
     border-radius: 16px;
     background: #ff00000d;
 }
