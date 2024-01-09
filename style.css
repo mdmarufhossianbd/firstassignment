@@ -352,6 +352,9 @@ form > input, button{
 }
 
 .footer_links > a{
+    display: flex;
+    gap: 16px;
+    text-align: center;
     color: #ffffff;
     text-decoration: none;
 }
